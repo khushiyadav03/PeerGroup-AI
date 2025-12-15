@@ -1,11 +1,11 @@
 # PeerGroup AI - Intelligent Collaborative Learning Teams
 
-## 📚 Overview
+## Overview
 **PeerGroup AI** is a Flask-based web application designed to automatically form effective peer learning groups. By analyzing student data—such as grades, learning styles, and interests—the system uses Unsupervised Machine Learning (K-Means Clustering) to create balanced or homogenous groups, enhancing collaboration and learning outcomes in classrooms.
 
 ![Upload Page](static/upload_page.png) *(Note: Placeholder for actual screenshot)*
 
-## 🚀 Key Features
+## Key Features
 - **Web Interface**: Modern, glassmorphism-inspired UI for easy interaction.
 - **Dynamic Dataset Support**: Upload any CSV file containing student profiles.
 - **Flexible Feature Selection**: Dynamically choose which columns to use as **Numerical** (e.g., Grades) or **Categorical** (e.g., Interests) features.
@@ -13,14 +13,14 @@
 - **Visualization**: Interactive PCA-reduced 2D plots to visualize the formed clusters.
 - **Downloadable Results**: Export the group allocations as a CSV file.
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend**: HTML5, CSS3 (Custom Glassmorphism), Bootstrap 5, Jinja2.
 - **Backend**: Python, Flask.
 - **Machine Learning**: Scikit-learn (K-Means, PCA, StandardScaler, OneHotEncoder).
 - **Data Processing**: Pandas, NumPy.
 - **Visualization**: Matplotlib, Seaborn.
 
-## 📦 Installation
+## Installation
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/khushiyadav03/PeerGroup-AI.git
@@ -41,7 +41,7 @@
     pip install -r requirements.txt
     ```
 
-## 🏃 Usage
+## Usage
 1.  **Start the Application**
     ```bash
     python app.py
@@ -58,7 +58,7 @@
     - See the visual clusters and a preview of the groups.
     - Download the full result CSV.
 
-## 📂 Project Structure
+## Project Structure
 ```
 PeerGroup-AI/
 ├── app.py                # Main Flask Application
@@ -79,8 +79,5 @@ PeerGroup-AI/
 └── requirements.txt      # Project dependencies
 ```
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Please fork the repository and create a pull request.
-
-## 📄 License
-This project is licensed under the MIT License.
