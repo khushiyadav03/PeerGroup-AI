@@ -1,0 +1,51 @@
+StudentID,Name,Math_Grade,Science_Grade,History_Grade,Learning_Style,Personality_Score,Interest,Cluster_Label
+9a1de644-815e-46d1-bb8f-aa1837f8a88b,Cristian Santos,60,60,73,Visual,5,Art,0
+6142ea7d-17be-4111-9a2a-73ed562b0f79,Ryan Munoz,51,70,82,Visual,6,Science,0
+ab9099a4-35a2-40ae-9af3-05535ec42e08,Timothy Wong,58,75,51,Visual,4,Science,0
+a9488d99-0bbb-4599-91ce-5dd2b45ed1f0,Dylan Miller,56,70,58,Visual,7,Art,0
+9132b63e-f162-47e4-a9c3-49e03602f8ac,Emily Rios,51,55,91,Auditory,4,Coding,0
+2369b584-ff5e-4ff0-bf50-bde4382567b8,Ann Williams,63,72,89,Visual,5,Art,0
+05628059-568c-469b-9064-005c3985c3cf,Crystal Robinson,50,54,75,Auditory,7,Coding,0
+a6f2f7b8-0cf3-4b58-9910-8be58ce21ea3,Dr. Tracy House DVM,55,77,77,Kinesthetic,4,Art,0
+77d21e02-ff01-4f99-988c-24c961b1cd22,Tricia Valencia,73,75,74,Visual,9,Music,1
+7a0ecfea-958c-49ba-8cd6-20c20ea2622b,Sarah Moore,86,82,91,Visual,8,Sports,1
+d9f195d0-1482-4f53-8201-0c62f5f59b22,Kurt Leonard,64,81,81,Visual,8,Art,1
+8b9d2434-e465-4150-bd9c-66b3ad3c2d6d,Javier Johnson,70,88,68,Visual,7,Sports,1
+506e5a9a-b758-488d-ab73-295b344a54b8,James Powers,98,86,98,Visual,8,Art,1
+f4188f3f-8a14-4e62-a95b-4715c333e861,Kerry Smith,84,82,54,Kinesthetic,7,Coding,2
+fa5d3100-11b7-4948-90e6-e6607c69dee1,Pamela Anderson,97,72,73,Kinesthetic,5,Science,2
+1ca35cfb-04fc-4d82-bd15-438552fbe43b,Sherry Decker,90,77,56,Auditory,9,Coding,2
+88bd6407-2bcf-4e01-a28d-efe39bf00273,Carla Gray,77,96,56,Visual,8,Science,2
+bdd640fb-0667-4ad1-9c80-317fa3b1799d,Daniel Doyle,88,78,64,Kinesthetic,8,Coding,2
+dfde4fbf-3ff3-40bf-b66e-cb15474ebc19,Jessica Callahan,71,77,51,Kinesthetic,9,Coding,2
+63f2ae24-fc3d-4348-808d-4127610461e3,Richard Gibson,88,82,50,Visual,9,Music,2
+1d53434b-b881-49b9-ae27-0da702f06b90,Kimberly Adams,78,64,94,Visual,1,Sports,3
+a8b317fa-18d0-452b-9825-bc5430beb45f,Jeff Owens,81,53,79,Visual,5,Sports,3
+a491f0b2-ea1f-4a65-a27a-984d654821d0,Derek Wright,78,67,75,Visual,2,Music,3
+a0ee89ae-d453-4d32-8b0d-bb418d5288f1,Shannon Ray,93,52,86,Visual,3,Coding,3
+bb026576-f512-44c3-b253-d2186c4a37ea,Kristi Higgins MD,76,62,90,Auditory,3,Sports,3
+28f49481-a0a0-4dc4-a720-9bdf1c11f735,Jennifer Brown,65,94,67,Auditory,5,Coding,4
+f8cda88b-436d-46e2-b83c-fe0be037e5ed,Cassandra Gaines,50,93,57,Auditory,8,Coding,4
+bf3c4c06-4343-48bc-89fa-6a688fb5d27b,Stephanie Ross,59,85,63,Auditory,8,Sports,4
+0f1259e0-a18f-46b6-b535-106e122c9a56,Taylor Heath,63,88,76,Visual,9,Coding,4
+3da9c2a9-0ed4-4f1a-bd4c-bf374eb93eff,Theresa Miller,57,61,83,Kinesthetic,1,Sports,5
+d777a477-4c66-40a8-a013-ac6ededa4e16,Lisa Hernandez,60,66,57,Kinesthetic,3,Music,5
+614ff3d7-19db-4ad0-9dd1-dfb23b982ef8,Mark Diaz,67,53,74,Kinesthetic,2,Science,5
+474a493b-3ced-4f2d-839f-bc501223b513,Cindy Anderson,64,64,75,Auditory,3,Sports,5
+72ff5d2a-386e-4be0-ab65-a6a48b8148f6,Rhonda Smith,85,89,73,Visual,3,Coding,6
+c1590f53-8a0f-4efb-adcd-465e36386821,Christina Collins,76,84,50,Visual,3,Coding,6
+5f987c71-a65e-488e-abf3-ad39fec21bbe,Joseph Martinez,86,96,63,Visual,3,Art,6
+b02b61c4-a3d7-4628-ace6-6fa2fd5166e6,Melinda Cameron,96,84,63,Auditory,1,Art,6
+759cde66-bacf-43d0-8b1f-9163ce9ff57f,Valerie Gray,93,74,98,Auditory,3,Coding,7
+d261a7ab-3aa2-44f9-8e51-f30dc6a7ee39,Ethan Adams,85,99,89,Auditory,4,Science,7
+2a45c2ab-8cbf-4db0-b264-accc79ac1b1e,Shane Henderson,84,93,89,Auditory,6,Science,7
+a748dbcf-ac61-4e63-8dde-29a6baa4b71a,Mrs. Jennifer Morgan,72,88,94,Auditory,4,Art,7
+f10c718b-1eb0-438a-a75d-d5af3c365296,Danielle Wheeler,90,98,98,Visual,4,Sports,7
+93829b43-922f-415a-a1e3-db63ef7ddc76,Richard Aguirre,81,88,98,Auditory,4,Sports,7
+6c307511-b2b9-437a-a8df-6ec4ce4a2bbd,Christopher Bernard,71,51,73,Kinesthetic,6,Science,8
+4b22d308-1c8e-4ee9-9715-bd6fa4161293,Jesse Mckay,74,56,58,Auditory,8,Science,8
+0ef8c2d6-f7fd-4646-b7bb-3eec4bf50b52,Kimberly Adkins,88,55,57,Kinesthetic,9,Science,8
+7b3a4e3e-7c52-4a17-a80a-c07a2a935d62,James Brown,79,60,77,Kinesthetic,9,Art,8
+310c0c00-3fa7-4104-9bf9-0e27dc96925e,Jerry Henderson,62,81,56,Kinesthetic,3,Sports,9
+a8499b92-6b52-42e3-94fc-dd549e8fc965,Kelly Donovan,61,88,51,Auditory,3,Sports,9
+edd4253b-50f0-4d0a-b50c-ab754ccc9bc2,Angel Ellis,66,98,51,Kinesthetic,2,Sports,9

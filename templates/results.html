@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row justify-content-center">
+    <!-- Results Header & Download -->
+    <div class="col-md-4 order-md-2 mb-4">
+        <div class="glass-card h-100">
+            <h4 class="mb-3 text-primary">Generated Groups</h4>
+            <div class="alert alert-success d-flex align-items-center">
+                <i class="fas fa-check-circle me-2"></i>
+                <div>Successfully formed <strong>{{ n_clusters }}</strong> groups!</div>
+            </div>
+
+            <ul class="list-group list-group-flush bg-transparent mb-4">
+                <li class="list-group-item bg-transparent d-flex justify-content-between px-0">
+                    <span>Total Students</span>
+                    <span class="badge bg-primary rounded-pill">{{ n_students }}</span>
+                </li>
+                <li class="list-group-item bg-transparent d-flex justify-content-between px-0">
+                    <span>Cluster Count</span>
+                    <span class="badge bg-info rounded-pill">{{ n_clusters }}</span>
+                </li>
+            </ul>
+
+            <a href="/download/{{ output_file }}" class="btn btn-primary w-100 mb-2">
+                <i class="fas fa-download me-2"></i> Download CSV
+            </a>
+            <a href="/" class="btn btn-outline-dark w-100">
+                <i class="fas fa-redo me-2"></i> Start Over
+            </a>
+        </div>
+    </div>
+
+    <!-- Visualization -->
+    <div class="col-md-8 order-md-1 mb-4">
+        <div class="glass-card text-center">
+            <h5 class="mb-4">Cluster Visualization (PCA)</h5>
+            <div class="bg-white p-2 rounded-3 shadow-sm d-inline-block">
+                <img src="{{ url_for('static', filename=plot_image) }}" class="img-fluid rounded" alt="Cluster Plot">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Data Table -->
+<div class="row justify-content-center">
+    <div class="col-12">
+        <div class="glass-card">
+            <h5 class="mb-3">Group Allocations (Preview)</h5>
+            <div class="table-responsive">
+                <table class="table table-borderless table-glass align-middle">
+                    <thead>
+                        <tr>
+                            {% for col in preview_cols %}
+                            <th>{{ col }}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for row in preview_data %}
+                        <tr>
+                            {% for col in preview_cols %}
+                            <td>{{ row[col] }}</td>
+                            {% endfor %}
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
