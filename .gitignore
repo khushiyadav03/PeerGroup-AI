@@ -4,5 +4,8 @@ __pycache__/
 venv/
 .env
 .DS_Store
+.vscode/
+flask_stdout.log
+flask_stderr.log
 static/uploads/*
 !static/uploads/.gitkeep
