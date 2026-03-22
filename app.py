@@ -72,11 +72,10 @@ def cluster_data():
     
     # Visualize
     plot_filename = f"plot_{filename.split('.')[0]}.png"
-    plot_path = os.path.join('static', plot_filename) # Relative for Flask url_for? No, save needs system path
-    # But plot_clusters takes full path.
-    # Let's use absolute path for saving, filename for template.
-    abs_plot_path = os.path.join(app.root_path, 'static', plot_filename)
-    plot_clusters(X, labels, save_path=abs_plot_path)
+    # Save generated plots alongside uploaded/generated CSVs so runtime-created files
+    # stay in the same writable location across local and hosted environments.
+    plot_output_path = os.path.join(app.config['UPLOAD_FOLDER'], plot_filename)
+    plot_clusters(X, labels, save_path=plot_output_path)
     
     # Preview Data (First 10 rows)
     preview_cols = list(df.columns)
